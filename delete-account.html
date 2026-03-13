@@ -2,19 +2,140 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Delete Account – MELD</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delete Account – MELD: AI World Kitchen</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Georgia, 'Times New Roman', serif; background: #faf9f7; color: #2c2c2c; line-height: 1.8; font-size: 16px; }
+    .header { background: #1a0a00; color: #fff; padding: 60px 40px 40px; text-align: center; }
+    .header h1 { font-size: 2.4rem; font-weight: normal; letter-spacing: 2px; margin-bottom: 10px; }
+    .header .subtitle { color: #e8845a; font-size: 0.95rem; letter-spacing: 1px; }
+    nav { background: #2d1200; padding: 14px 30px; display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; }
+    nav a { color: #e8845a; text-decoration: none; font-size: 0.9rem; font-family: sans-serif; letter-spacing: 0.5px; }
+    nav a:hover { color: #fff; }
+    nav a.active { color: #fff; border-bottom: 2px solid #e8845a; padding-bottom: 2px; }
+    .container { max-width: 700px; margin: 0 auto; padding: 50px 30px 80px; }
+    .meta { background: #fff3ee; border-left: 4px solid #e8845a; padding: 16px 20px; margin-bottom: 40px; font-size: 0.9rem; color: #666; font-family: sans-serif; }
+    h2 { font-size: 1.3rem; font-weight: bold; color: #1a0a00; margin: 40px 0 14px; padding-bottom: 8px; border-bottom: 1px solid #e8d5c8; }
+    p { margin-bottom: 14px; color: #444; }
+    ul { margin: 10px 0 18px 20px; color: #444; }
+    ul li { margin-bottom: 8px; }
+    a { color: #e8845a; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .steps { counter-reset: step; list-style: none; margin-left: 0; }
+    .steps li { counter-increment: step; margin-bottom: 16px; padding-left: 50px; position: relative; color: #444; }
+    .steps li::before { content: counter(step); position: absolute; left: 0; top: 0; width: 34px; height: 34px; background: #e8845a; color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-family: sans-serif; font-weight: bold; font-size: 0.9rem; }
+    .warning { background: #fff0f0; border: 2px solid #e53935; border-radius: 8px; padding: 20px 24px; margin: 24px 0; font-family: sans-serif; font-size: 0.95rem; color: #555; }
+    .warning strong { color: #c62828; display: block; margin-bottom: 8px; }
+    .highlight { background: #fff8f5; border: 1px solid #f0d0c0; border-radius: 8px; padding: 18px 22px; margin: 20px 0; font-size: 0.95rem; font-family: sans-serif; }
+    .method { background: #fff; border: 1px solid #e8d5c8; border-radius: 12px; padding: 24px; margin: 20px 0; }
+    .method h3 { font-size: 1.1rem; color: #1a0a00; margin-bottom: 12px; }
+    .badge { display: inline-block; background: #e8845a; color: #fff; font-size: 0.75rem; font-family: sans-serif; font-weight: bold; padding: 3px 10px; border-radius: 20px; margin-bottom: 12px; letter-spacing: 0.5px; }
+    .footer { text-align: center; padding: 30px; background: #1a0a00; color: #888; font-size: 0.85rem; font-family: sans-serif; }
+    .footer a { color: #e8845a; }
+    .page-links { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-top: 14px; }
+  </style>
 </head>
 <body>
-  <h1>Delete Your MELD Account</h1>
-  <p>To delete your account and all associated data:</p>
-  <ol>
-    <li>Open the MELD app</li>
-    <li>Go to <strong>Profile</strong></li>
-    <li>Tap <strong>Delete Account</strong></li>
-    <li>Type DELETE to confirm</li>
-  </ol>
-  <p>Alternatively, email us at 
-    <a href="mailto:meld@faruksevuk.com">meld@faruksevuk.com</a>
-  </p>
+<div class="header">
+  <h1>DELETE ACCOUNT</h1>
+  <div class="subtitle">MELD: AI World Kitchen Recipes</div>
+</div>
+<nav>
+  <a href="privacy.html">Privacy Policy</a>
+  <a href="terms.html">Terms of Service</a>
+  <a href="delete-account.html" class="active">Delete Account</a>
+</nav>
+<div class="container">
+  <div class="meta"><strong>Last Updated:</strong> March 14, 2026 &nbsp;|&nbsp; <strong>Developer:</strong> Faruk Sevük</div>
+
+  <p>You have the right to delete your MELD account and all associated data at any time. This page explains how to request account deletion and what happens to your data.</p>
+
+  <div class="warning">
+    <strong>⚠ Account deletion is permanent and cannot be undone.</strong>
+    Once your account is deleted, all your saved recipes, preferences, and account information will be permanently removed. This action cannot be reversed.
+  </div>
+
+  <h2>What Gets Deleted</h2>
+  <ul>
+    <li>Your account and authentication credentials</li>
+    <li>All saved recipes and associated AI-generated images</li>
+    <li>Your dietary preferences and app settings</li>
+    <li>Your recipe generation history and quota records</li>
+    <li>Your profile information (email, display name)</li>
+  </ul>
+
+  <h2>What Is Not Immediately Deleted</h2>
+  <ul>
+    <li><strong>Device trial records:</strong> Retained for up to 12 months to prevent abuse of free trial systems.</li>
+    <li><strong>Subscription records:</strong> Retained by RevenueCat per their data retention policy for billing and refund purposes.</li>
+    <li><strong>Aggregated, anonymized usage data:</strong> Non-identifiable statistical data may be retained indefinitely.</li>
+    <li><strong>Legal hold data:</strong> Data may be retained longer if required by applicable law or ongoing legal proceedings.</li>
+  </ul>
+
+  <h2>How to Delete Your Account</h2>
+
+  <div class="method">
+    <div class="badge">RECOMMENDED</div>
+    <h3>Method 1 — Delete In-App</h3>
+    <ol class="steps">
+      <li>Open the MELD app on your device</li>
+      <li>Tap the <strong>Profile</strong> tab (bottom right)</li>
+      <li>Scroll to the bottom and tap <strong>Delete Account</strong></li>
+      <li>Type <strong>DELETE</strong> in the confirmation field</li>
+      <li>Tap the red <strong>Delete My Account</strong> button</li>
+    </ol>
+    <p style="margin-top: 14px; font-family: sans-serif; font-size: 0.9rem; color: #666;">A 3-day grace period begins. Your account will be permanently deleted within 3 days. You can cancel by logging back into the app within this period.</p>
+  </div>
+
+  <div class="method">
+    <h3>Method 2 — Email Request</h3>
+    <p>If you cannot access the app, send a deletion request to:</p>
+    <div class="highlight">
+      <strong>Email:</strong> <a href="mailto:monarc.devs@gmail.com?subject=Account Deletion Request – MELD&body=Hello, I would like to request the deletion of my MELD account. My registered email address is: [YOUR EMAIL]">monarc.devs@gmail.com</a><br>
+      <strong>Subject:</strong> Account Deletion Request – MELD<br>
+      <strong>Include:</strong> Your registered email address or user ID
+    </div>
+    <p style="font-family: sans-serif; font-size: 0.9rem; color: #666;">We will process your request within 7 business days and confirm deletion via email.</p>
+  </div>
+
+  <h2>Grace Period</h2>
+  <p>When you request account deletion in-app, a <strong>3-day grace period</strong> is initiated. During this period:</p>
+  <ul>
+    <li>Your account is marked for deletion but not yet permanently removed</li>
+    <li>You can cancel the deletion by signing back into the app</li>
+    <li>After 3 days, all data is permanently and irreversibly deleted</li>
+  </ul>
+
+  <h2>After Deletion</h2>
+  <p>Once your account is permanently deleted:</p>
+  <ul>
+    <li>You will no longer be able to access any saved recipes or account data</li>
+    <li>Your email address will be released and can be used to create a new account</li>
+    <li>Active subscriptions will not be automatically cancelled — you must cancel them separately via the App Store or Google Play</li>
+  </ul>
+
+  <div class="highlight">
+    <strong>Cancel Your Subscription:</strong><br><br>
+    <strong>iOS:</strong> Settings → [Your Name] → Subscriptions → MELD → Cancel<br><br>
+    <strong>Android:</strong> Google Play → Profile → Payments & subscriptions → Subscriptions → MELD → Cancel
+  </div>
+
+  <h2>Questions?</h2>
+  <div class="highlight">
+    <strong>Developer:</strong> Faruk Sevük<br>
+    <strong>Email:</strong> <a href="mailto:monarc.devs@gmail.com">monarc.devs@gmail.com</a><br>
+    <strong>Privacy Policy:</strong> <a href="privacy.html">View Privacy Policy</a><br>
+    <strong>Terms of Service:</strong> <a href="terms.html">View Terms of Service</a>
+  </div>
+</div>
+<div class="footer">
+  © 2026 Faruk Sevük · MELD: AI World Kitchen Recipes
+  <div class="page-links">
+    <a href="privacy.html">Privacy Policy</a> ·
+    <a href="terms.html">Terms of Service</a> ·
+    <a href="delete-account.html">Delete Account</a>
+  </div>
+</div>
 </body>
 </html>
